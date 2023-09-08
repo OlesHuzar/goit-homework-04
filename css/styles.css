@@ -360,7 +360,7 @@ button {
 
 /* -- FOUR SECTION -- */
 
-.portfolio-section{
+.portfolio-section {
         padding-top: 120px;
         padding-bottom: 120px;
 }
@@ -406,7 +406,7 @@ button {
 .portfolio-list-link:hover .overlay,
 .portfolio-list-link:focus .overlay {
     transform: translateY(0%);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -435,6 +435,11 @@ button {
         padding-top: 100px;
         padding-bottom: 100px;
         display: flex;
+        align-items: baseline;
+}
+
+.logotype-footer-section {
+    margin-right: 120px;
 }
 
 .logotype-footer {
@@ -463,15 +468,37 @@ button {
 }
 
 .footer-title {
-    color: #FFF;
+    color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-social-media {
+    display: flex;
+    gap: 16px;
+    height: 100%;
+    width: 100%
 }
 
 .footer-social-media-icon {
-        width: 40px;
-        height: 40px;
+    fill: #f4f4fd;
+}
+
+.footer-social-media-link {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.footer-social-media-link:hover,
+.footer-social-media-link:focus {
+    background-color: #31d0aa;
 }
