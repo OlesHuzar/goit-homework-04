@@ -113,7 +113,6 @@ button {
 .link-studio {
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    text-decoration: underline;
 }
 
 .link-studio::after {
@@ -121,6 +120,7 @@ button {
     position: absolute;
     left: 0;
     bottom: -1px;
+    width: 48px;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
@@ -168,6 +168,8 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     }
 
 .main-text {
@@ -258,13 +260,6 @@ button {
     color: #434455;
 }
 
-.social-media-icon {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    width: 40px;
-    height: 40px;
-}
 
 /* -- THIRD SECTION -- */
 
@@ -323,7 +318,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 .social-media {
@@ -345,6 +340,7 @@ button {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    gap: 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -435,12 +431,14 @@ button {
 
 /* -- FOOTER SECTION -- */
 
-.footer-section {
-        background-color: #2E2F42;
+footer {
+    background-color: #2E2F42;
         padding-top: 100px;
         padding-bottom: 100px;
+}
+
+.footer-section {        
         display: flex;
-        align-items: baseline;
 }
 
 .logotype-footer-section {
@@ -485,8 +483,6 @@ button {
 .footer-social-media {
     display: flex;
     gap: 16px;
-    height: 100%;
-    width: 100%
 }
 
 .footer-social-media-link {
