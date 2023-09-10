@@ -439,11 +439,11 @@ footer {
 
 .footer-section {        
         display: flex;
+        align-items: baseline;
 }
 
 .logotype-footer-section {
     margin-right: 120px;
-    align-items: baseline;
 }
 
 .logotype-footer {
